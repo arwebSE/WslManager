@@ -53,7 +53,7 @@ namespace WslManager.Screens
                 return;
             }
 
-            if (MessageBox.Show(this, $"To apply change, you need to shutdown the LXSS service. Please save all of the files before shutdown. Shtudown now?",
+            if (MessageBox.Show(this, $"To apply change, you need to shutdown the LXSS service. Please save all of the files before shutdown. Shutdown now?",
                 Text, MessageBoxButtons.YesNo, MessageBoxIcon.Warning,
                 MessageBoxDefaultButton.Button2) != DialogResult.Yes)
                 return;
